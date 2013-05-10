@@ -1,5 +1,5 @@
 PRINC := "${@int(PRINC) + 2}"
-DEPENDS += "x264 orc orc-native"
+DEPENDS += "orc orc-native"
 EXTRA_OECONF += "--enable-orc"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
